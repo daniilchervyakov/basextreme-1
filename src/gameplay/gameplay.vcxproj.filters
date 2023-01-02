@@ -1,0 +1,922 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{5892b56b-50f9-4837-855e-36223fc08bed}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{2e4dcbcf-627c-4ac7-8eea-6812e66f5cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{6b14f50e-46a1-4b8b-902c-e818e7174451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Unsorted">
+      <UniqueIdentifier>{c59b5bd0-b148-4e95-84c6-5db403047ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xpp">
+      <UniqueIdentifier>{1d445230-d800-461a-b88b-172002339804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{b7b97191-e3dd-4096-8260-c787ad83d707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goals">
+      <UniqueIdentifier>{e0ce9dad-faa4-4764-a6f5-91a9ede30a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{727ee6ef-10a6-4b96-9cd1-bc09940a228f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jumper">
+      <UniqueIdentifier>{0d61309b-7192-4e76-ade9-56c1f82d8bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Npcs">
+      <UniqueIdentifier>{43b436dc-1379-4cca-a813-a518db4ac189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{483850b8-b285-433a-9ffb-fff875d24d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instructors">
+      <UniqueIdentifier>{ffe6f0b6-bafb-4e15-a812-a22c489500da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canopy">
+      <UniqueIdentifier>{25e64aca-8d74-4398-907c-7d264637cf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{0d14cd47-cfae-4a23-9e3b-dec1b5895d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Activities">
+      <UniqueIdentifier>{1b0374f2-655d-4ddc-8be4-fa54486ddd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Activities\Cameras">
+      <UniqueIdentifier>{54b73a96-a80c-4b1d-91f0-c83d0020637d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{689cb7f9-cbc1-4495-8d0e-79bd103ebd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{480e0ef6-f495-476a-846d-0ebae80a545c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="memstream.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBMP.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinystr.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxml.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlerror.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlparser.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="db_canopy.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_event.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_face.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_helmet.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_location.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_mission.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_npc.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_rig.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_suit.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="db_textures.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="career.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="divine.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="enclosure.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="equip_callback.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="gear.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="sensor.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="usercommunity.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="virtues.cpp">
+      <Filter>_Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_airplane.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_basejumper01.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_bush.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_canopy02.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_crowdmale01.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_helicopter.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_ostankinocuts.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_pilotchute.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_slider.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_traffic.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="xpp_tree.cpp">
+      <Filter>Xpp</Filter>
+    </ClCompile>
+    <ClCompile Include="angelfalls.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="casting.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="cave.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="communitymission.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="dropzone_basevff.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="dropzone_cloudyrodeo.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="dropzone_freejumps.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="dropzone_skybase.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="dropzone_vff.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="elcapitan.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="kjerag.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="kvly.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="ostankino_attic.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="ostankino_openair.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="royalgorge.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="royalgorge_field.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="royalgorge_smokeball.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="trollveggen.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="trollveggen_climbing.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="trollveggen_field.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="trollveggen_freejumping.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="trollveggen_smokeball.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_bonus.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_delayaccuracy.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_dropzone.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_experience.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_flipcount.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_footage.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_gear.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_landing.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_proximity.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_reward.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_smokeball.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_spiral.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_stateofhealth.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_trackingperf.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="hardlanding.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="landingaccuracy.cpp">
+      <Filter>Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="boogie.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="climbing.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="community.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="festival.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="night.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="salary.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="smokeevent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="travel.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="weatherforecast.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="cattoy.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_airplaneidle.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_airplanejump.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_badlanding.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_copening.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_flight.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_flip.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_flipjump.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_landing.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_linetwists.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_modelman.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_outofcontrol.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_pull.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_rendercb.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_runningjump.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_sitflying.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_standingjump.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_tracking.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_turn.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_walkbackward.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="jumper_walkforward.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="spinalcord.cpp">
+      <Filter>Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcassist.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npccameraman.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcflight.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcfollow.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcfreefall.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcmove.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcprogram.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="spectator.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="spectator_move.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="spectator_turn.cpp">
+      <Filter>Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="hud_altimeter.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="hud_health.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="hud_timer.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="hud_variometer.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="acroinstructor.cpp">
+      <Filter>Instructors</Filter>
+    </ClCompile>
+    <ClCompile Include="affinstructor.cpp">
+      <Filter>Instructors</Filter>
+    </ClCompile>
+    <ClCompile Include="baseinstructor.cpp">
+      <Filter>Instructors</Filter>
+    </ClCompile>
+    <ClCompile Include="instructor.cpp">
+      <Filter>Instructors</Filter>
+    </ClCompile>
+    <ClCompile Include="canopy.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="canopy_render.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="collapse.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="cord.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="hookknife.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="pab.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="rope.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="wlo.cpp">
+      <Filter>Canopy</Filter>
+    </ClCompile>
+    <ClCompile Include="actor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="airplane.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="ambientsound.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="animobject.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="character_idle.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="crowd.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="crysound.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="flight.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="footsteps.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="forest.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="freefall.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="pilotchute.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="smokeball.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="smokejet.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="traffic.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="windpointer.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="activity.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="careercourse.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="createcareer.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="credits.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="cutscene.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="deletecareer.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="enterlocation.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="equip.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="fatalitylist.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="geoscape.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="incident.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupt.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="location.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="messagebox.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="messagedialog.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="mission.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="missionbrowser.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="missionsource.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="preloaded.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="selectcareer.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="selecthome.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="tournamentsource.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="traveldialog.cpp">
+      <Filter>Activities</Filter>
+    </ClCompile>
+    <ClCompile Include="flywaycamera.cpp">
+      <Filter>Activities\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="freecamera.cpp">
+      <Filter>Activities\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="bitfield.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="currenttime.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="actionmap.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="buttonchannel.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="mousechannel.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="memstream.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_BMP.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_DataStructures.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_VariousBMPutilities.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\TinyXML\include\tinystr.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\TinyXML\include\tinyxml.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="callback.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="career.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="divine.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="gameplay.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="gear.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="virtues.h">
+      <Filter>_Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="xpp.h">
+      <Filter>Xpp</Filter>
+    </ClInclude>
+    <ClInclude Include="angelfalls.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="casting.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="cave.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="communitymission.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="dropzone.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="elcapitan.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="kjerag.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="kvly.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="ostankino.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="royalgorge.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="trollveggen.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="landingaccuracy.h">
+      <Filter>Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="boogie.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="climbing.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="community.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="festival.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="night.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="salary.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="smokeevent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="travel.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="weatherforecast.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="jumper.h">
+      <Filter>Jumper</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcassist.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npccameraman.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcflight.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcfollow.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcfreefall.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcmove.h">
+      <Filter>Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="acroinstructor.h">
+      <Filter>Instructors</Filter>
+    </ClInclude>
+    <ClInclude Include="affinstructor.h">
+      <Filter>Instructors</Filter>
+    </ClInclude>
+    <ClInclude Include="baseinstructor.h">
+      <Filter>Instructors</Filter>
+    </ClInclude>
+    <ClInclude Include="instructor.h">
+      <Filter>Instructors</Filter>
+    </ClInclude>
+    <ClInclude Include="canopy.h">
+      <Filter>Canopy</Filter>
+    </ClInclude>
+    <ClInclude Include="airplane.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="animobject.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="crowd.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="forest.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="pilotchute.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="smokeball.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="smokejet.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="traffic.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="windpointer.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="activity.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="careercourse.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="createcareer.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="credits.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="cutscene.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="deletecareer.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="demo.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="equip.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="fatalitylist.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="geoscape.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="interrupt.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="messagebox.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="mission.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="missionbrowser.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="preloaded.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="selectcareer.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="selecthome.h">
+      <Filter>Activities</Filter>
+    </ClInclude>
+    <ClInclude Include="bitfield.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="currenttime.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="actionmap.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

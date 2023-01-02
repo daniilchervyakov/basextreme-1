@@ -481,7 +481,7 @@ void AnimationController::advanceMultipleTracks(float dt)
             weightSet.weight[k] = _track[k].weight;
             weightSum += weightSet.weight[k];
         }
-        if( _activeWeightSetI._Mynode() != 0 )
+        if( _activeWeightSetI._Ptr != 0)
         {
             weightSum = 0.0f;
             for( j=0; j<numActiveTracks; j++ )

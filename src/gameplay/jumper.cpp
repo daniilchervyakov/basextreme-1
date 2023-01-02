@@ -748,7 +748,7 @@ void Jumper::onRoaming(float dt)
     // detect phase switch
     if( _spinalCord->phase )
     {        
-        float maxDistance = 50.0f;
+        float maxDistance = 20050.0f;
         
         ActionChannel* modifier = Gameplay::iGameplay->getActionChannel( ::iaModifier );
         bool isWearWingsuit = database::Suit::getRecord( getVirtues()->equipment.suit.id )->wingsuit;

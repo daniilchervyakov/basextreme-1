@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_unsorted">
+      <UniqueIdentifier>{b7cf2048-d214-4853-8b88-9280f99eab8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{9c83628f-55bf-471d-90a2-3b391cd3f15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{57653634-f562-4802-9e9f-bc7cb7716437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{11dd257a-ec16-4e61-b84d-30038b5c04b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects">
+      <UniqueIdentifier>{5be06265-3e93-4c6e-b3ca-a8b8b7beff82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{44042c6c-9d30-4b6a-b7ad-b39dfb4aeef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{48639800-91f1-433d-9157-a34a806a03f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{c043a51d-a511-434f-8685-56c66499b4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{b93d34eb-d25e-4d43-a60d-f48be725a925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alphasort.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="batch.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="errorreport.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="fastquat.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="fundamentals.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="grass.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsl.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="imem.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="istring.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="ixml.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="rain.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="wire.h">
+      <Filter>_unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\engine.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\gui.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="asset.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="psys.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="smoketrail.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="atomic.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="clump.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmap.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="shadows.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexdeclaration.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\TinyXML\include\tinystr.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\TinyXML\include\tinyxml.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="configreader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="batch.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="batch_sector.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="boxintersection.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="depthmap.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="glow.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="grass.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="hlsl.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="imem.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="importasset.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="lensflare.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="lostable.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="octree.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="rain.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="wire.cpp">
+      <Filter>_unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryasset.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="xasset.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guibutton.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guiedit.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guipanel.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guislider.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guistatictext.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guiwindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guixml.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="fxblender.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxcamera.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxgrass.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxhlsl.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxwater.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxwaterfall.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="psys.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="smoketrail.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="atomic.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="clump.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmap.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="shadows.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="rayintersection.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="sphereintersection.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinystr.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxml.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlerror.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlparser.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="configreader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="engine.rc">
+      <Filter>gui</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="gui.xml">
+      <Filter>gui</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
